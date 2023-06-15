@@ -1,0 +1,22 @@
+body{
+    text-align: center;
+    border: 10px solid #581664;
+    background-color: black;
+}
+
+a, img{
+    color: red;
+    text-decoration: none;
+    margin: 0;
+    vertical-align: center;
+
+}
+
+a:hover{
+    color: green;
+}
+
+.box {
+    display: flex;
+    align-items:center;
+ }
