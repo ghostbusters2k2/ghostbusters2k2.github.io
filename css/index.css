@@ -15,8 +15,3 @@ a, img{
 a:hover{
     color: green;
 }
-
-.box {
-    display: flex;
-    align-items:center;
- }
