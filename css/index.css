@@ -1,17 +1,53 @@
+.website-box{
+    display: flex;
+    top: 10px;
+    left: 10px;
+}
+
 body{
-    text-align: center;
-    border: 10px solid #581664;
-    background-color: black;
+    background-color: grey;
+    color: white;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    padding: 0px 200px;
+
 }
 
-a, img{
-    color: red;
+.website-flex{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+
+.rocket-image img{
+    height: 256px;
+    width: auto;
+    display: block;
+    margin-right: 30px;
+
+}
+
+.rocket-image{
     text-decoration: none;
-    margin: 0;
-    vertical-align: center;
-
+    color: rgb(231, 231, 231);
 }
 
-a:hover{
-    color: green;
+.iron-man{
+    width: 256px;
+    height: auto;
+    text-decoration: none;
+    color: rgb(231, 231, 231);
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid rgb(177, 177, 177);
+    padding: 0px 20px;
+}
+
+.header-link{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+
 }
