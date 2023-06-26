@@ -1,10 +1,12 @@
 .website-box img{
     width: 200px;
     height: auto;
+    display: block;
 }
 
 .website-box{
     place-self: center;
+
 }
 
 body{
@@ -12,9 +14,10 @@ body{
     color: white;
     font-family: Roboto, Arial, Helvetica, sans-serif;
     padding: 15px;
-    padding-bottom: 250px;
+    padding-bottom: 1000px;
 
 }
+
 
 .website-flex{
     display: grid;
@@ -26,7 +29,6 @@ body{
 }
 
 a{
-    text-decoration: none;
     color: black;
 }
 
@@ -35,6 +37,7 @@ a{
     justify-content: space-between;
     border: 3px solid rgb(177, 177, 177);
     padding: 0px 20px;
+    border-radius: 10px;
 }
 
 .header-link{
