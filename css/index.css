@@ -1,7 +1,10 @@
+.website-box img{
+    width: 200px;
+    height: auto;
+}
+
 .website-box{
-    display: flex;
-    top: 10px;
-    left: 10px;
+    place-self: center;
 }
 
 body{
@@ -13,30 +16,17 @@ body{
 }
 
 .website-flex{
-    display: flex;
-    justify-content: center;
-    padding-top: 50px;
-}
-
-
-.rocket-image img{
-    height: 525px;
-    width: auto;
-    display: block;
-    margin-right: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 5px;
+    align-items: center;
+    padding-top: 100px;
 
 }
 
-.rocket-image{
+a{
     text-decoration: none;
-    color: rgb(231, 231, 231);
-}
-
-.iron-man{
-    width: 256px;
-    height: auto;
-    text-decoration: none;
-    color: rgb(231, 231, 231);
+    color: black;
 }
 
 .header{
@@ -50,4 +40,11 @@ body{
     text-decoration: none;
     color: rgb(0, 0, 0);
 
+}
+
+@media (max-width: 1005px) {
+    .website-flex{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
 }
